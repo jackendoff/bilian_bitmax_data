@@ -21,7 +21,7 @@ def sendEmail(content,title):
     mail_host = "smtp.163.com"  # SMTP服务器
     mail_user = "jackendoff"  # 用户名
     print('邮箱密码没有输入，请在custom-send_email中line24输入')
-    mail_pass = "pf1783126868"  # 授权密码，非登录密码
+    mail_pass = "pf***********"  # 授权密码，非登录密码
 
     sender = 'jackendoff@163.com'  # 发件人邮箱(最好写全, 不然会失败)
     receivers = ['1783126868@qq.com']  # 接收邮件，可设置为你的QQ邮箱或者其他邮箱
